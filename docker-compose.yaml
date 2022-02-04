@@ -2,4 +2,6 @@ services:
   areyouok:
     build: .
     ports:
+      - 8080:8080
+      - 6800:16800
       - 80:80
